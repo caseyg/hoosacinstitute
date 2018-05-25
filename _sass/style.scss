@@ -9,25 +9,31 @@ a:hover {
 }
 
 .journal-thumb {
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   border: 1px solid #5E44B7;
   padding: 1em;
 }
 
-.journal-thumb div {
-  display: inline-block;
-}
-
 .contributor {
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
-.thumb, .contributor {
+.thumb, .contributor, .file {
   border: 1px solid #5E44B7;
   width: 1em;
   height: 1em;
-  display: inline-block;
   vertical-align: middle;
   margin: 0;
   padding: 0;
+}
+
+.file {
+  width: auto;
+  height: auto;
+}
+
+.thumb {
+  border: 1px dotted #5E44B7;
 }
