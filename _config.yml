@@ -1,7 +1,6 @@
 ---
 title: Hoosac Institute
 timezone: America/New_York
-permalink: pretty
 collections:
   journal:
     title: Journal
@@ -12,3 +11,4 @@ collections:
   uploads:
     title: Uploads
     output: true
+permalink: pretty
