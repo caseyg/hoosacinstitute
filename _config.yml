@@ -1,18 +1,6 @@
 ---
 title: Hoosac Institute
 timezone: America/New_York
-repository: caseyg/hoosacinstitute
-
-permalink: pretty
-
-theme: minima
-minima:
-  date_format: "%b %-d, %Y"
-
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
-
 collections:
   journal:
     title: Journal
@@ -23,11 +11,9 @@ collections:
   uploads:
     title: Uploads
     output: true
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "journal"
-    values:
-      layout: "journal"
+repository: caseyg/hoosacinstitute
+permalink: pretty
+theme: minima
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
