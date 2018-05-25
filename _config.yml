@@ -23,4 +23,11 @@ collections:
   uploads:
     title: Uploads
     output: true
-permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "journal"
+    values:
+      layout: "journal"

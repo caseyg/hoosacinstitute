@@ -3,3 +3,31 @@ body {
   color: #5E44B7;
   font-family: Courier;
 }
+
+a:hover {
+  background: lighten(#FEF7ED, 20%);
+}
+
+.journal-thumb {
+  display: inline-block;
+  border: 1px solid #5E44B7;
+  padding: 1em;
+}
+
+.journal-thumb div {
+  display: inline-block;
+}
+
+.contributor {
+  border-radius: 50%;
+}
+
+.thumb, .contributor {
+  border: 1px solid #5E44B7;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
