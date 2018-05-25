@@ -1,8 +1,10 @@
 ---
 title: Mira Schor
-category: contribution
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
+  - ''
 ---
+

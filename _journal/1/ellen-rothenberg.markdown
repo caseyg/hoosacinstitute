@@ -1,8 +1,10 @@
 ---
 title: Ellen Rothenberg
-category: contribution
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
+  - ''
 ---
+

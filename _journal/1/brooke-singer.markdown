@@ -1,8 +1,10 @@
 ---
 title: Brooke Singer
-category: contribution
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
+  - ''
 ---
+

@@ -1,8 +1,10 @@
 ---
 title: Valerie Tevere and Angel Nevarez
-category: contribution
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
+  - ''
 ---
+

@@ -1,8 +1,10 @@
 ---
 title: Keith Waldrop
-category: contribution
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
+  - ''
 ---
+

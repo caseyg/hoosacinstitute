@@ -1,8 +1,10 @@
 ---
 title: Susan Bee
-category: contribution
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
+  - ''
 ---
+

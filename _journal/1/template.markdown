@@ -1,8 +1,10 @@
 ---
-title: 
-category: contribution
+title: Template
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
+  - ''
 ---
+

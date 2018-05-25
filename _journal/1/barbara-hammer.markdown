@@ -1,8 +1,10 @@
 ---
 title: Barbara Hammer
-category: contribution
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
+  - ''
 ---
+

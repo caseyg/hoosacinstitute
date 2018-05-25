@@ -1,8 +1,10 @@
 ---
 title: Terry Perlin
-category: contribution
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
+  - ''
 ---
+

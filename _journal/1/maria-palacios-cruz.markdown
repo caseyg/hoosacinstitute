@@ -1,8 +1,10 @@
 ---
 title: Maria Palacios Cruz
-category: contribution
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
+  - ''
 ---
+

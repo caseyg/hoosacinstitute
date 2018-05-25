@@ -1,8 +1,10 @@
 ---
 title: Shelly Silver
-category: contribution
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
+  - ''
 ---
+

@@ -1,8 +1,10 @@
 ---
 title: Trinh T Minh-Ha
-category: contribution
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
+  - ''
 ---
+

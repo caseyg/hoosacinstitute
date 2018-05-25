@@ -1,8 +1,10 @@
 ---
 title: Rosmarie Waldrop
-category: contribution
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
+  - ''
 ---
+

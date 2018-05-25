@@ -1,8 +1,10 @@
 ---
 title: Luis Camnitzer
-category: contribution
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
+  - ''
 ---
+

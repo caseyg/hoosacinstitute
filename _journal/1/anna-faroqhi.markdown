@@ -1,19 +1,21 @@
 ---
 title: Anna Faroqhi
-category: contribution
+categories:
+- contribution
 files:
-- file: ""
+- file: ''
   images:
-  - ""
-  - ""
-- file: ""
+  - ''
+  - ''
+- file: ''
   images:
-  - ""
-  - ""
-  - ""
-- file: ""
+  - ''
+  - ''
+  - ''
+- file: ''
   images:
-  - ""
-  - ""
-  - ""
+  - ''
+  - ''
+  - ''
 ---
+
