@@ -1,30 +1,32 @@
 ---
 title: Brooke Singer
+categories:
+- contribution
 initials: BS
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
   - ''
 ---
+

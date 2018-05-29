@@ -1,10 +1,12 @@
 ---
 title: Pauline Gloss
+categories:
+- contribution
 initials: PG
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: pdf
   images:
   - ''
 ---
+

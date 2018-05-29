@@ -1,21 +1,23 @@
 ---
 title: Keith Waldrop
+categories:
+- contribution
 initials: KW
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: docx
   images:
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 ---
+

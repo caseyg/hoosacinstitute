@@ -1,30 +1,32 @@
 ---
 title: Valerie Tevere and Angel Nevarez
+categories:
+- contribution
 initials: VA
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: docx
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
   - ''
 ---
+

@@ -1,16 +1,18 @@
 ---
 title: Trinh T Minh-Ha
+categories:
+- contribution
 initials: TM
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: jpg
   images:
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 ---
+

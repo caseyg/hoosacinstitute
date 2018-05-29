@@ -1,14 +1,16 @@
 ---
 title: Susan Bee
+categories:
+- contribution
 initials: SB
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
   - ''
 ---
+

@@ -1,26 +1,28 @@
 ---
 title: Barbara Hammer
+categories:
+- contribution
 initials: BH
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
   - ''
 ---
+

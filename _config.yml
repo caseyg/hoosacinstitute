@@ -11,16 +11,15 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: journal
+  values:
+    layout: contribution
 repository: caseyg/hoosacinstitute
 permalink: pretty
 theme: minima
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
-defaults:
-  -
-    scope:
-      path: ""
-      type: "journal"
-    values:
-      layout: "contribution"

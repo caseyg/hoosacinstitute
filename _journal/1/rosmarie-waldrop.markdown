@@ -1,14 +1,16 @@
 ---
 title: Rosmarie Waldrop
+categories:
+- contribution
 initials: RW
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: docx
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: docx
   images:
   - ''
 ---
+

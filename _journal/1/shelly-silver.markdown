@@ -1,10 +1,12 @@
 ---
 title: Shelly Silver
+categories:
+- contribution
 initials: SS
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: docx
   images:
   - ''
 ---
+

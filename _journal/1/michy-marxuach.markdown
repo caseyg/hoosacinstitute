@@ -1,10 +1,12 @@
 ---
 title: Michy Marxuach
+categories:
+- contribution
 initials: MM
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: pdf
   images:
   - ''
 ---
+

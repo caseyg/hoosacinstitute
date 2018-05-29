@@ -1,25 +1,27 @@
 ---
 title: Maria Palacios Cruz
+categories:
+- contribution
 initials: MC
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: docx
   images:
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 ---
+

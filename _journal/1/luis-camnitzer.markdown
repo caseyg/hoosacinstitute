@@ -1,9 +1,11 @@
 ---
 title: Luis Camnitzer
+categories:
+- contribution
 initials: LC
-category: contribution
 files:
 - file: ''
   images:
   - ''
 ---
+

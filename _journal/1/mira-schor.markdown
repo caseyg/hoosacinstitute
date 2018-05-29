@@ -1,22 +1,24 @@
 ---
 title: Mira Schor
+categories:
+- contribution
 initials: MS
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
   - ''
 ---
+

@@ -1,35 +1,37 @@
 ---
 title: Anna Faroqhi
+categories:
+- contribution
 initials: AF
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: doc
   images:
-  - ""
-  - ""
-- file: ""
+  - ''
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: pdf
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: pdf
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: pdf
   images:
-  - ""
+  - ''
 ---
+

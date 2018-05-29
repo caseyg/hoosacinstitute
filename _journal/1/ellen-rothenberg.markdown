@@ -1,10 +1,12 @@
 ---
 title: Ellen Rothenberg
+categories:
+- contribution
 initials: ER
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: jpg
   images:
   - ''
 ---
+

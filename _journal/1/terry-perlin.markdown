@@ -1,11 +1,13 @@
 ---
 title: Terry Perlin
+categories:
+- contribution
 initials: TP
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: docx
   images:
-  - ""
-  - ""
+  - ''
+  - ''
 ---
+

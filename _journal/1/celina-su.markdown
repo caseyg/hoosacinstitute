@@ -1,10 +1,12 @@
 ---
 title: Celina Su
+categories:
+- contribution
 initials: CS
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: docx
   images:
   - ''
 ---
+

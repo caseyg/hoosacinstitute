@@ -1,21 +1,23 @@
 ---
 title: Charles Bernstein
+categories:
+- contribution
 initials: CB
-category: contribution
 files:
-- file: ""
+- file: ''
   ext: docx
   images:
-  - ""
-  - ""
-  - ""
-  - ""
-- file: ""
+  - ''
+  - ''
+  - ''
+  - ''
+- file: ''
   ext: jpg
   images:
-  - ""
-- file: ""
+  - ''
+- file: ''
   ext: jpg
   images:
   - ''
 ---
+
