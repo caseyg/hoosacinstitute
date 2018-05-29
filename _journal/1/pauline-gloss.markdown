@@ -6,5 +6,5 @@ files:
 - file: ""
   ext: pdf
   images:
-  - ""
+  - ''
 ---

@@ -18,5 +18,5 @@ files:
 - file: ""
   ext: jpg
   images:
-  - ""
+  - ''
 ---

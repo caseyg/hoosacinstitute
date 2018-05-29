@@ -10,5 +10,5 @@ files:
 - file: ""
   ext: docx
   images:
-  - ""
+  - ''
 ---
