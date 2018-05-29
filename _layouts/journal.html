@@ -6,22 +6,8 @@ layout: default
 
 {{ content }}
 
-{% assign journals = site.journal | where: "category", "issue" %}
+{% assign journals = site.journal | where: "categories", "issue" %}
 
 {% for journal in journals %}
-  <a class="journal-thumb" href="{{ journal.url }}">
-    {% assign contributions = site.journal  | where: "category", "contribution" %}
-    {% for contribution in contributions %}
-      <div class="contribution">
-        <figure class="contributor"></figure>
-        {% for file in contribution.files %}
-          <div class="file">
-            {% for images in file.images %}
-              <figure class="thumb"></figure>
-            {% endfor %}
-          </div>
-        {% endfor %}
-      </div>
-    {% endfor %}
-  </a>
-{% endfor %}
+{% assign contributions = site.journal  | where: "category", "contribution" %}
+<a class="journal" href="{{ journal.url }}">{% for contribution in contributions %}<div class="contribution"><figure class="contributor"></figure>{% for file in contribution.files %}<div class="file">{% for images in file.images %}<figure class="thumb"></figure>{% endfor %} </div>{% endfor %}</div>{% endfor %}</a>{% endfor %}

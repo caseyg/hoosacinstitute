@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<h1 class="page-heading">{{ page.title }}</h1>
+
+{{ content }}
+
+  <div class="journal journal--2x" href="{{ journal.url }}">
+    {% assign contributions = site.journal  | where: "category", "contribution" %}
+    {% for contribution in contributions %}
+      <a class="contribution" href="{{ contribution.url }}">
+        <figure class="contributor">{{ contribution.initials }}</figure>
+        {% for file in contribution.files %}
+          <div class="file">
+            {% for images in file.images %}
+              <figure class="thumb"></figure>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </a>
+    {% endfor %}
+  </div>
+
+  <br>
+
+<ul>
+  {% for contribution in contributions %}
+    <li><a href="{{ contribution.url }}"><strong>{{ contribution.initials}}</strong> {{ contribution.title }}</a></li>
+  {% endfor %}
+</ul>

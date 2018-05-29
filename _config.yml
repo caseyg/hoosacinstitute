@@ -17,3 +17,10 @@ theme: minima
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
+defaults:
+  -
+    scope:
+      path: ""
+      type: "journal"
+    values:
+      layout: "contribution"

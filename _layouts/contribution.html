@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="journal journal--3x">
+    <div class="contribution">
+      <figure class="contributor">{{ page.title }}</figure>
+      {% for file in page.files %}
+        <div class="file">
+          {% for images in file.images %}
+            <figure class="thumb"></figure>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+</div>
