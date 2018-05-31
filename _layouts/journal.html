@@ -9,5 +9,5 @@ layout: default
 {% assign journals = site.journal | where: "categories", "issue" %}
 
 {% for journal in journals %}
-{% assign contributions = site.journal  | where: "category", "contribution" %}
+{% assign contributions = site.journal  | where: "categories", "contribution" %}
 <a class="journal" href="{{ journal.url }}">{% for contribution in contributions %}<div class="contribution"><figure class="contributor"></figure>{% for file in contribution.files %}<div class="file">{% for images in file.images %}<figure class="thumb"></figure>{% endfor %} </div>{% endfor %}</div>{% endfor %}</a>{% endfor %}

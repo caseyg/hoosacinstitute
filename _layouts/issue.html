@@ -7,7 +7,7 @@ layout: default
 {{ content }}
 
   <div class="journal journal--2x" href="{{ journal.url }}">
-    {% assign contributions = site.journal  | where: "category", "contribution" %}
+    {% assign contributions = site.journal  | where: "categories", "contribution" %}
     {% for contribution in contributions %}
       <a class="contribution" href="{{ contribution.url }}">
         <figure class="contributor">{{ contribution.initials }}</figure>
