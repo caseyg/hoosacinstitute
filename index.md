@@ -1,6 +1,6 @@
 ---
 title: The Hoosac Institute
-layout: home
+layout: home-placeholder
 ---
 
 Hello
