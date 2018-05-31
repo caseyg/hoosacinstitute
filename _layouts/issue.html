@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="journal journal--2x" href="{{ journal.url }}">
   {% assign contributions = site.journal  | where: "categories", "contribution" %}
   {% for contribution in contributions %}
