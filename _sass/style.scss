@@ -2,6 +2,8 @@ body {
   background: #FEF7ED;
   color: #5E44B7;
   font-family: Courier;
+  margin: 0;
+  padding: 0;
 }
 
 a:link, a:visited {
@@ -92,19 +94,27 @@ ul {
 }
 
 .journal--3x {
-  font-size: 4em;
-  border-width: 4px;
-  width: 75vw;
+  box-sizing: border-box;
+  font-size: 10vw;
+  border-width: 1vw;
+  width: 100vw;
   margin: auto;
   .thumb, .contributor, .file {
-    border-width: 4px;
-    width: 75vw;
+    box-sizing: border-box;
+    border-width: 1vw;
+  }
+  .file {
+    display: block;
+    margin-top: 10vw;
   }
   .contributor {
-    width: 70vw;
-    height:40vw;
-    padding-top:35vw;
     text-align: center;
+    width: 50vw;
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
   }
 }
 
