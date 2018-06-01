@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {%- seo -%}
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css" />
     {%- feed_meta -%}
   </head>
 
@@ -15,9 +16,9 @@
     <header role="banner">
 
     <ul class="nav">
-      <a href="{{ site.baseurl }}/">The Hoosac Institute</a>
-      <a href="{{ site.baseurl }}/about">About</a>
-      <a href="{{ site.baseurl }}/journal">Journal</a>
+      <a href="{{ site.baseurl }}/" {% if page.title == "The Hoosac Institute" %}class="active"{% endif %}>The Hoosac Institute</a>
+      <a href="{{ site.baseurl }}/journal"{% if page.path contains "journal" %}class="active"{% endif %}>Journal</a>
+      <a href="{{ site.baseurl }}/about"{% if page.title == "About" %}class="active"{% endif %}>About</a>
     </ul>
 
     </header>
@@ -39,6 +40,13 @@
       for (var i = journal.children.length; i >= 0; i--) {
           journal.appendChild(journal.children[Math.random() * i | 0]);
       }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+    <script>
+      $( "a.prompt" ).click(function() {
+        toastr.warning('This file requires downloading. Check your downloads folder!')
+      });
     </script>
   </body>
 </html>
