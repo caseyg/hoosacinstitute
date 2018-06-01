@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    {%- feed_meta -%}
+  </head>
+
+  <body>
+
+    <header role="banner">
+
+    <ul>
+      <li><a href="{{ site.baseurl }}/home">The Hoosac Institute</a></li>
+      <li><a href="{{ site.baseurl }}/about">About</a></li>
+      <li><a href="{{ site.baseurl }}/journal">Journal</a></li>
+    </ul>
+
+    </header>
+
+    <main class="page-content" aria-label="Content">
+        {{ content }}
+    </main>
+
+    <footer>
+    </footer>
+  </body>
+
+</html>
