@@ -6,6 +6,7 @@ initials: ER
 files:
 - file: "/uploads/HistoryorChoice%20copy%203.tiff"
   ext: tiff
+  Key: 5.4 MB
   images:
   - "/uploads/HistoryorChoice%20copy%203.jpg"
 ---
