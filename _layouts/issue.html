@@ -28,4 +28,13 @@ layout: default
       <li><a href="{{ contribution.url }}"><strong>{{ contribution.initials}}</strong> {{ contribution.title }}</a></li>
     {% endfor %}
   </ul>
+
+  <hr>
+
+  <p>Navigate the links above to browse and download individual contributions, or click below to download the entire issue contents.</p>
+
+  <a href="{{ page.download.url }}" class="download">
+    Download .ZIP ({{ page.download.size }})
+  </a>
+
 </div>
