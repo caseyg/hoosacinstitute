@@ -14,15 +14,17 @@
 
     <header role="banner">
 
-    <div class="nav">
-      <a href="{{ site.baseurl }}/home">The Hoosac Institute</a>
-      <a href="{{ site.baseurl }}/journal">Journal</a>
-      <a href="{{ site.baseurl }}/about">About</a>
+    <ul>
+      <li><a href="{{ site.baseurl }}/home">The Hoosac Institute</a></li>
+      <li><a href="{{ site.baseurl }}/about">About</a></li>
+      <li><a href="{{ site.baseurl }}/journal">Journal</a></li>
     </ul>
 
     </header>
     <main id="wrapper">
-      {{ content }}
+      <div class="container" aria-label="Content">
+          {{ content }}
+      </div>
     </main>
 
     <footer>
