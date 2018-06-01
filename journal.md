@@ -2,4 +2,3 @@
 title: Journal
 layout: journal
 ---
-

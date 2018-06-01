@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
+<div class="container">
+  {{ content }}
 
-{{ content }}
+  {% assign journals = site.journal | where: "categories", "issue" %}
 
-{% assign journals = site.journal | where: "categories", "issue" %}
-
-{% for journal in journals %}
-{% assign contributions = site.journal  | where: "categories", "contribution" %}
-<a class="journal journal--1x transition" href="{{ journal.url }}" title="Hoosac Journal<br><strong>Issue {{ journal.title }}</strong>">{% for contribution in contributions %}<div class="contribution"><figure class="contributor"></figure>{% for file in contribution.files %}<div class="file">{% for images in file.images %}<figure class="thumb"></figure>{% endfor %} </div>{% endfor %}</div>{% endfor %}</a>{% endfor %}
+  {% for journal in journals %}
+  {% assign contributions = site.journal  | where: "categories", "contribution" %}
+  <a class="journal journal--1x transition" href="{{ journal.url }}" title="Hoosac Journal<br><strong>Issue {{ journal.title }}</strong>">{% for contribution in contributions %}<div class="contribution"><figure class="contributor"></figure>{% for file in contribution.files %}<div class="file">{% for images in file.images %}<figure class="thumb"></figure>{% endfor %} </div>{% endfor %}</div>{% endfor %}</a>{% endfor %}
+</div>
