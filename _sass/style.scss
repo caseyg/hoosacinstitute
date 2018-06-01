@@ -75,7 +75,14 @@ ul {
   margin-right: .5em;
 }
 
+.journal--1x {
+  max-width: 400px;
+  margin: auto;
+}
+
 .journal--2x {
+  max-width: 800px;
+  margin: auto;
   font-size: 2em;
   border-width: 2px;
   .thumb, .contributor, .file {
@@ -99,14 +106,22 @@ ul {
   border-width: 1vw;
   width: 100vw;
   margin: auto;
+
   .thumb, .contributor, .file {
     box-sizing: border-box;
     border-width: 1vw;
   }
   .file {
     display: block;
+    margin: auto;
     margin-top: 10vw;
+    text-align: center;
+
+    marquee {
+      font-size: 16px;
+    }
   }
+
   .contributor {
     text-align: center;
     width: 50vw;
@@ -116,6 +131,17 @@ ul {
     justify-content: center;
     margin: auto;
   }
+
+  .thumb {
+    border-width: 2px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin: auto;
+    width: 20vw;
+    height: 20vw;
+  }
 }
 
 table {
@@ -124,4 +150,13 @@ table {
 
 th {
   padding-right: 10px;
+}
+
+.tippy-tooltip {
+  background-color: #5E44B7;
+  border: 0;
+  font-weight: bold;
+  color: #FEF7ED;
+  border-radius: 0;
+  text-align: left;
 }

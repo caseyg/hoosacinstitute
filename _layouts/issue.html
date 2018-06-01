@@ -5,7 +5,7 @@ layout: default
 <div class="journal journal--2x" href="{{ journal.url }}">
   {% assign contributions = site.journal  | where: "categories", "contribution" %}
   {% for contribution in contributions %}
-    <a class="contribution" href="{{ contribution.url }}">
+    <a class="contribution" href="{{ contribution.url }}" title="<strong>{{ contribution.title }}</strong><!--{% for file in contribution.files %}<br>&bull; {{ file.ext }}{% assign size = file.images | size %}{% if size > 1 %}, {{ file.images | size }} pages{% endif %}{% endfor %}-->">
       <figure class="contributor">{{ contribution.initials }}</figure>
       {% for file in contribution.files %}
         <div class="file">

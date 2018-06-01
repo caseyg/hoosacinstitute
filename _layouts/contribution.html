@@ -6,11 +6,12 @@ layout: default
     <div class="contribution">
       <figure class="contributor"><span>{{ page.title }}</span></figure>
       {% for file in page.files %}
-        <div class="file">
-          {% for images in file.images %}
-            <figure class="thumb"></figure>
+        <a class="file" href="{{ file.file }}" title="Download .{{ file.ext | upcase }}{% if file.size %}<br>({{ file.size }}){% endif %}">
+          {% for image in file.images %}
+            <figure class="thumb" style="background-image:url({{image}});"></figure>
           {% endfor %}
-        </div>
-      {% endfor %}
+          <marquee>{{ file.file }}</marquee>
+        </a>
+     {% endfor %}
     </div>
 </div>
