@@ -75,7 +75,14 @@ ul {
   margin-right: .5em;
 }
 
+.journal--1x {
+  max-width: 400px;
+  margin: auto;
+}
+
 .journal--2x {
+  max-width: 800px;
+  margin: auto;
   font-size: 2em;
   border-width: 2px;
   .thumb, .contributor, .file {
