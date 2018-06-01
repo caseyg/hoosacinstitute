@@ -15,10 +15,10 @@ _—Jenny Perlin, 2018_
 ## Contact
 
 <form action="https://formspree.io/jennyperlinstudio@gmail.com" method="POST">
-Name: <input type="text" name="full_name"><br>
-Email: <input type="email" name="__replyto"><br>
+Name:<br><input type="text" name="full_name" placeholder="First Last"><br>
+Email:<br><input type="email" name="__replyto" placeholder="email@address.com"><br>
 Message:<br>
-<textarea name="message" rows="10" cols="30"></textarea><br>
+<textarea name="message" rows="10" cols="30" placeholder="Your messsage here..."></textarea><br>
 <input type="submit" value="Send message">
 </form>
 
