@@ -6,19 +6,13 @@ body {
   padding: 0;
 }
 
-header {
-  position: fixed;
-  height: 10vh;
-  width: 100vw;
-  background: #5E44B7;
-  color: #FEF7ED;
-  a:link, a:visited {
-    color: #FEF7ED;
-  }
+.container {
+  padding: 20px;
 }
 
-.barba-container {
-  padding: 15vh 0;
+.page {
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 a:link, a:visited {
@@ -30,7 +24,30 @@ a:hover {
   background: lighten(#FEF7ED, 20%);
 }
 
-ul {
+hr {
+  border: 0;
+  border-top: 2px solid #5E44B7;
+}
+
+.nav {
+  display: flex;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid #5E44B7;
+  border-right: none;
+}
+
+.nav a {
+  margin: 0;
+  padding: 1em;
+  flex: 1 1 0;
+  border-right: 1px solid #5E44B7;
+  text-align: left;
+}
+
+.contributors {
   column-count: 2;
 }
 
@@ -87,7 +104,8 @@ ul {
   padding: .6em;
   width: 1em;
   height: 1em;
-  margin-right: .5em;
+  margin-right: .25em;
+  margin-top: 10px;
 }
 
 .journal--1x {
@@ -153,7 +171,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
-    margin: auto;
+    margin: auto auto .5em auto;
     width: 20vw;
     height: 20vw;
   }

@@ -2,7 +2,7 @@
 title: About
 ---
 
-The Hoosac Institute is a curated platform for text and image focusing on pieces that don’t fit conventional disciplinary narratives.
+## Mission
 
 Despite language expounding the necessity of experimentation, creativity, and interdisciplinarity, too many institutions keep their textual and image boundaries tightly controlled. We have all written, produced, or created projects that didn’t find a home; projects to which we devoted time, energy and skill. The Hoosac Institute dedicates itself to these very works of people whose titles may not reveal everything about themselves and their productive capacities.
 

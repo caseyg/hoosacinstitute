@@ -2,24 +2,30 @@
 layout: default
 ---
 
-<div class="journal journal--2x" href="{{ journal.url }}">
-  {% assign contributions = site.journal  | where: "categories", "contribution" %}
-  {% for contribution in contributions %}
-    <a class="contribution" href="{{ contribution.url }}" title="<strong>{{ contribution.title }}</strong><!--{% for file in contribution.files %}<br>&bull; {{ file.ext }}{% assign size = file.images | size %}{% if size > 1 %}, {{ file.images | size }} pages{% endif %}{% endfor %}-->">
-      <figure class="contributor">{{ contribution.initials }}</figure>
-      {% for file in contribution.files %}
-        <div class="file">
-          {% for images in file.images %}
-            <figure class="thumb"></figure>
-          {% endfor %}
-        </div>
-      {% endfor %}
-    </a>
-  {% endfor %}
-</div>
+<div class="container">
+  <div class="journal journal--2x" href="{{ journal.url }}">
+    {% assign contributions = site.journal  | where: "categories", "contribution" %}
+    {% for contribution in contributions %}
+      <a class="contribution" href="{{ contribution.url }}" title="<strong>{{ contribution.title }}</strong><!--{% for file in contribution.files %}<br>&bull; {{ file.ext }}{% assign size = file.images | size %}{% if size > 1 %}, {{ file.images | size }} pages{% endif %}{% endfor %}-->">
+        <figure class="contributor">{{ contribution.initials }}</figure>
+        {% for file in contribution.files %}
+          <div class="file">
+            {% for images in file.images %}
+              <figure class="thumb"></figure>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </a>
+    {% endfor %}
+  </div>
 
-<ul>
-  {% for contribution in contributions %}
-    <li><a href="{{ contribution.url }}"><strong>{{ contribution.initials}}</strong> {{ contribution.title }}</a></li>
-  {% endfor %}
-</ul>
+  <h2>Hoosac Journal Issue {{ page.title }}</h2>
+
+  <hr>
+
+  <ul class="contributors">
+    {% for contribution in contributions %}
+      <li><a href="{{ contribution.url }}"><strong>{{ contribution.initials}}</strong> {{ contribution.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
