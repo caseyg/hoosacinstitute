@@ -201,3 +201,14 @@ th {
   border-radius: 0;
   text-align: left;
 }
+
+.announcement {
+  border: 1px dotted #5E44B7;
+  padding: .5em 1em;
+  font-size: 16px;
+
+  a:link,
+  a:visited {
+    text-decoration: underline;
+  }
+}
