@@ -7,7 +7,7 @@ layout: default
       <figure class="contributor"><span>{{ page.title }}</span></figure>
       {{ content}}
       {% for file in page.files %}
-        <a class="file" href="{{ file.file }}" title="Download .{{ file.ext | upcase }}{% if file.size %}<br>({{ file.size }}){% endif %}">
+        <a class="file {% if (file.ext == "doc") or (file.ext == "docx") %}prompt{% endif %}" href="{{ file.file }}" title="Download .{{ file.ext | upcase }}{% if file.size %}<br>({{ file.size }}){% endif %}">
           {% for image in file.images %}
             <figure class="thumb" style="background-image:url({{image}});"></figure>
           {% endfor %}
