@@ -3,6 +3,9 @@ title: '1'
 date: 2018-05-25 09:50:00 -04:00
 categories:
 - issue
+download:
+  url: http://gdurl.com/DMg5/download/5611d2a5944bec205349bf8b565406b7
+  size: 81 MB
 layout: issue
 ---
 

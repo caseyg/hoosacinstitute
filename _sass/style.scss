@@ -39,7 +39,8 @@ hr {
   border-right: none;
 }
 
-.nav a {
+.nav a:link,
+.nav a:visited {
   margin: 0;
   padding: 1em;
   flex: 1 1 0;
@@ -131,6 +132,13 @@ hr {
       background: lighten(#FEF7ED, 20%);
     }
   }
+}
+
+.download {
+  border: 1px solid #5E44B7;
+  padding: .5em;
+  margin-bottom: 1em;
+  display: inline-block;
 }
 
 .journal--3x {
