@@ -13,7 +13,7 @@ layout: default
           {% for image in file.images %}
             <figure class="thumb" style="background-image:url({{image}});"></figure>
           {% endfor %}
-          <marquee>{{ file.file }}</marquee>
+          <div class="marquee">{{ file.file }}</div>
         </a>
      {% endfor %}
     </div>
