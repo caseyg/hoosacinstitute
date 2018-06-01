@@ -36,16 +36,28 @@ hr {
   padding: 0;
   list-style-type: none;
   border: 1px solid #5E44B7;
-  border-right: none;
+  border-bottom: none;
+  flex-direction: column;
 }
 
 .nav a:link,
 .nav a:visited {
   margin: 0;
   padding: 1em;
-  flex: 1 1 0;
-  border-right: 1px solid #5E44B7;
   text-align: left;
+  border-bottom: 1px solid #5E44B7;
+}
+
+@media (min-width: 432px) {
+  .nav {
+    flex-direction: row;
+    border-right: none;
+  }
+  .nav a:link,
+  .nav a:visited {
+    flex: 1 1 0;
+    border-right: 1px solid #5E44B7;
+  }
 }
 
 .contributors {
@@ -85,6 +97,7 @@ hr {
   height: auto;
   margin-right: .5em;
   display: inline;
+  line-height: 1.5;
 }
 .file:after {
   content: " ";
@@ -250,4 +263,8 @@ input[type="submit"] {
   background: #5E44B7;
   color: #FEF7ED;
   cursor: pointer;
+}
+
+textarea {
+  max-width: 95%;
 }
