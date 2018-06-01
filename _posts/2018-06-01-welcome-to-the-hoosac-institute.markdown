@@ -13,5 +13,5 @@ In keeping with the mission of the Institute, the Journal is a quarterly curated
 
 Please enjoy the works of our amazing Issue 1 contributors, sign up for future issues, and keep in touch!
 
-Jenny Perlin 
+Jenny Perlin  
 _The Hoosac Institute_
