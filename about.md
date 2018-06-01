@@ -13,3 +13,14 @@ Founded in 1970 in Williamstown, Massachusetts, the Hoosac Institute has been do
 _—Jenny Perlin, 2018_
 
 ## Contact
+
+<form method="POST"
+action="https://www.formingo.co/submit/jennyperlinstudio@gmail.com">
+Name: <input type="text" name="full_name"><br>
+Email: <input type="email" name="__replyto"><br>
+Message:<br>
+<textarea name="message" rows="10" cols="30"></textarea><br>
+<input type="submit" value="Submit message">
+</form>
+
+<small>(or get in touch by email at jennyperlinstudio [at] gmail [dot] com)</small>
