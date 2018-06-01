@@ -14,13 +14,12 @@ _—Jenny Perlin, 2018_
 
 ## Contact
 
-<form method="POST"
-action="https://www.formingo.co/submit/jennyperlinstudio@gmail.com">
+<form action="https://formspree.io/jennyperlinstudio@gmail.com" method="POST">
 Name: <input type="text" name="full_name"><br>
 Email: <input type="email" name="__replyto"><br>
 Message:<br>
 <textarea name="message" rows="10" cols="30"></textarea><br>
-<input type="submit" value="Submit message">
+<input type="submit" value="Send message">
 </form>
 
 <small>(or get in touch by email at jennyperlinstudio [at] gmail [dot] com)</small>
