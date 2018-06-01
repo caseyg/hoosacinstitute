@@ -5,7 +5,9 @@ layout: default
 <div class="journal journal--3x">
     <div class="contribution">
       <figure class="contributor"><span>{{ page.title }}</span></figure>
-      {{ content}}
+      <div class="contribution__content">
+        {{ content}}
+      </div>
       {% for file in page.files %}
         <a class="file {% if (file.ext == "doc") or (file.ext == "docx") %}prompt{% endif %}" href="{{ file.file }}" title="Download .{{ file.ext | upcase }}{% if file.size %}<br>({{ file.size }}){% endif %}">
           {% for image in file.images %}
