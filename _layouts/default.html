@@ -37,6 +37,10 @@
         duration: 0,
         placement: 'right'
       })
+      var journal = document.querySelector('.journal');
+      for (var i = journal.children.length; i >= 0; i--) {
+          journal.appendChild(journal.children[Math.random() * i | 0]);
+      }
     </script>
   </body>
 </html>
