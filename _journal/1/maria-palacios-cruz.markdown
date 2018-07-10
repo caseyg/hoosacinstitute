@@ -4,8 +4,8 @@ categories:
 - contribution
 initials: MC
 files:
-- file: "/uploads/MORGAN%20FISHER_longtake_MPC_may2018.docx"
-  ext: docx
+- file: "/uploads/MORGAN%20FISHER_longtake_MPC_may2018.pdf"
+  ext: pdf
   images:
   - "/uploads/MORGAN%20FISHER_longtake_MPC_may2018_Page_01.jpg"
   - "/uploads/MORGAN%20FISHER_longtake_MPC_may2018_Page_02.jpg"
@@ -23,6 +23,6 @@ files:
   - "/uploads/MORGAN%20FISHER_longtake_MPC_may2018_Page_14.jpg"
   - "/uploads/MORGAN%20FISHER_longtake_MPC_may2018_Page_15.jpg"
   - "/uploads/MORGAN%20FISHER_longtake_MPC_may2018_Page_16.jpg"
-  size: 169 KB
+  size: 193 KB
 ---
 
