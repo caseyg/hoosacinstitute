@@ -4,7 +4,7 @@ categories:
 - contribution
 initials: PG
 files:
-- file: "/uploads/First%20Piano%20Lesson%20-%20Gloss.pdf"
+- file: "/uploads/First%20Piano%20Lesson%20-%20EDIT.pdf"
   ext: pdf
   size: 30 KB
   images:
