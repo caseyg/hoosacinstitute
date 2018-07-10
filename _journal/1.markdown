@@ -4,7 +4,7 @@ date: 2018-05-25 09:50:00 -04:00
 categories:
 - issue
 download:
-  url: http://gdurl.com/DMg5/download/5611d2a5944bec205349bf8b565406b7
+  url: http://gdurl.com/gILL/download/1906a28d9d07ccdca361f16b61d8dcb1
   size: 81 MB
 layout: issue
 ---
