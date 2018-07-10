@@ -4,10 +4,10 @@ categories:
 - contribution
 initials: SS
 files:
-- file: "/uploads/SILVER_SCORE%20FOR%20A%20DANCER%20OR%20OTHERS%20WHO%20MUST%20PRACTICE%20MOVING%20THROUGH%20SPACE.docx"
+- file: "/uploads/Score%20for%20Joanna%20Kotze.docx  "
   ext: docx
   size: 71 KB
   images:
-  - "/uploads/SILVER_SCORE%20FOR%20A%20DANCER%20OR%20OTHERS%20WHO%20MUST%20PRACTICE%20MOVING%20THROUGH%20SPACE.jpg"
+  - "/uploads/Score%20for%20Joanna%20Kotze.jpg"
 ---
 
